@@ -18,6 +18,10 @@ cp aurora-1197753_1920.jpg ~/.config/i3
 ```sh
 cp compton.conf ~/.config
 ```
+* Install package for wl-clipboard copy
+```sh
+sudo dnf install xsel
+```
 
 Then everything is ready. Enjoy!!!
 
