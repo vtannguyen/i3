@@ -39,9 +39,9 @@ make install
 git clone https://github.com/vivien/i3blocks-contrib ~/.config/i3blocks
 cp config.i3blocks ~/.config/i3blocks/config
 ```
-* Run i3blocks to see which package needed to be installed then install it
+* Install i3blocks dependancy packages
 ```sh
-i3blocks
+sudo dnf install lm_sensors acpi sysstat
 ```
 * Copy i3 config file to `~/.config/i3`
 ```sh
