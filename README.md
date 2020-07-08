@@ -9,6 +9,8 @@ sudo dnf install i3 i3status dmenu i3lock xbacklight feh
 ```sh
 sudo dnf install compton
 ```
+* Install lxappearance and rofi
+* copy .fonts to ~/ dir
 * Copy i3 config file to `~/.config/i3`
 ```sh
 cp config ~/.config/i3
