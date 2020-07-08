@@ -25,6 +25,24 @@ cp setting.ini ~/.config/gtk-3.0/
 ```sh
 cp rofi_config ~/.config/rofi/config
 ```
+* Install i3blocks
+```sh
+git clone https://github.com/vivien/i3blocks
+cd i3blocks
+./autogen.sh
+./configure
+make
+make install
+```
+* Clone the i3blocks config file
+```sh
+git clone https://github.com/vivien/i3blocks-contrib ~/.config/i3blocks
+cp config.i3blocks ~/.config/i3blocks/config
+```
+* Run i3blocks to see which package needed to be installed then install it
+```sh
+i3blocks
+```
 * Copy i3 config file to `~/.config/i3`
 ```sh
 cp config ~/.config/i3
