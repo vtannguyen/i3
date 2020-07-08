@@ -10,7 +10,21 @@ sudo dnf install i3 i3status dmenu i3lock xbacklight feh
 sudo dnf install compton
 ```
 * Install lxappearance and rofi
-* copy .fonts to ~/ dir
+```sh
+sudo dnf installl lxappearance rofi
+```
+* Copy files in .fonts to ~/.fonts dir
+```sh
+cp -r .fonts ~/.fonts
+```
+* Copy file setting.ini to ~/.config/gtk-3.0/
+```sh
+cp setting.ini ~/.config/gtk-3.0/
+```
+* Copy rofi config to ~/.config/rofi/config
+```sh
+cp rofi_config ~/.config/rofi/config
+```
 * Copy i3 config file to `~/.config/i3`
 ```sh
 cp config ~/.config/i3
