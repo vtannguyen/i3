@@ -47,6 +47,7 @@ sudo dnf install lm_sensors acpi sysstat
 ```sh
 cp config ~/.config/i3
 cp aurora-1197753_1920.jpg ~/.config/i3
+cp green-grass-on-sand-overlooking-body-of-water-1300510.jpg ~/.config/i3
 ```
 * Copy compton config file to `~/.config`
 ```sh
