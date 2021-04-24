@@ -202,14 +202,14 @@ bar {
 }
 
 # Setup multi-monitors
-exec --no-startup-id xrandr --output LVDS --off --output HDMI-0 --auto --right-of LVDS --mode 1920x1080 --primary
+# exec --no-startup-id xrandr --output LVDS --off --output HDMI-0 --auto --right-of LVDS --mode 1920x1080 --primary
 # Select wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/green-grass-on-sand-overlooking-body-of-water-1300510.jpg
+exec --no-startup-id feh --bg-scale ~/.config/i3/green-grass-on-sand-overlooking-body-of-water-1300510.jpg
 # Transparent terminal on i3
 exec --no-startup-id compton -f
 # Workspaces
 exec --no-startup-id i3-msg 'workspace $ws1; exec gnome-terminal;'
-exec --no-startup-id i3-msg 'workspace $ws2; exec /usr/bin/brave-browser;'
+# exec --no-startup-id i3-msg 'workspace $ws2; exec /usr/bin/brave-browser;'
 # Lock computer
 bindsym $mod+Shift+x exec i3lock
 # Make the currently focused window a scratchpad
