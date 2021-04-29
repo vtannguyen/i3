@@ -12,6 +12,8 @@ cp settings.ini ~/.config/gtk-3.0/
 mkdir ~/.config/rofi/
 cp rofi_config ~/.config/rofi/config
 
+cat "export GDK_DPI_SCALE=1.25" >> ~/.bash_profile
+
 mkdir ~/.config/i3/
 cp config ~/.config/i3
 cp aurora-1197753_1920.jpg ~/.config/i3
