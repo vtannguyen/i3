@@ -2,7 +2,7 @@
 
 # Install necessary packages
 sudo dnf install -y i3 i3status dmenu i3lock xbacklight feh \
-    compton lxappearance rofi make
+    lxappearance rofi make
 
 # Copy config files
 cp -r .fonts ~/.fonts
@@ -13,13 +13,12 @@ mkdir ~/.config/rofi/
 cp rofi_config ~/.config/rofi/config
 
 cat "export GDK_DPI_SCALE=1.25" >> ~/.bash_profile
+cat "export GDK_SCALE=2" >> ~/.bash_profile
 
 mkdir ~/.config/i3/
 cp config ~/.config/i3
 cp aurora-1197753_1920.jpg ~/.config/i3
 cp green-grass-on-sand-overlooking-body-of-water-1300510.jpg ~/.config/i3
-
-cp compton.conf ~/.config
 
 # Install i3blocks
 ## Install dependencies packages
