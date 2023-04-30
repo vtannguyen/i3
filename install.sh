@@ -12,8 +12,7 @@ cp settings.ini ~/.config/gtk-3.0/
 mkdir ~/.config/rofi/
 cp rofi_config ~/.config/rofi/config
 
-cat "export GDK_DPI_SCALE=1.25" >> ~/.bash_profile
-cat "export GDK_SCALE=2" >> ~/.bash_profile
+echo "export GDK_SCALE=2" >> ~/.bash_profile
 
 mkdir ~/.config/i3/
 cp config ~/.config/i3
